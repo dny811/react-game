@@ -217,7 +217,7 @@ class Game extends React.Component {
 ReactDOM.render(
   <Game />,
   document.getElementById('root'),
-  () => {console.log('ReactDom首次render, click!')}
+  () => {console.log('ReactDom首次render')}
 );
 
 function calculateWinner(squares) {
